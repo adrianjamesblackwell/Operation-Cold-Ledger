@@ -1,0 +1,68 @@
+# Operation Cold Ledger - Git Ignore Policy
+# Ensures repository remains clean, lightweight, and focused on analytical logic.
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Data files (RAW / GENERATED)
+# =========================
+data/raw/*.csv
+data/processed/*.csv
+
+# If you want to ignore all the data:
+# data/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.bak
+
+# =========================
+# Cache / artifacts
+# =========================
+.cache/
+
+# =========================
+# Model / large outputs (might be needed later)
+# =========================
+*.pkl
+*.joblib
+
+# =========================
+#KEEP VISUALS (IMPORTANT)
+# =========================
+!assets/diagrams/*.png
