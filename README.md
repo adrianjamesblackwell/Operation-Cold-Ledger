@@ -258,6 +258,6 @@ operation-cold-ledger/
 ├── notebooks/                   # End-to-end exploratory and visual analysis
 ├── reports/                     # Executive, technical, and intelligence-style outputs
 └── src/                         # Modular analytical pipeline components
-#   O p e r a t i o n - C o l d - L e d g e r  
- #   O p e r a t i o n - C o l d - L e d g e r  
+#   O p e r a t i o n - C o l d - L e d g e r 
  
+ #   O p e r a t i o n - C o l d - L e d g e r 
